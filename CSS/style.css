@@ -1,9 +1,9 @@
-#header {
+/* #header {
 	position: absolute;
 	top: 0;
 	left: 0;
-    width: 100%;
-}
+	width: 100%;
+} */
 
 #header h1 {
 	font-size: 32px;
@@ -16,4 +16,19 @@
 
 p {
 	font-size: 12px;
+	color: blue;
+}
+
+a{
+    text-decoration: underline;
+    color: lime;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+div {
+    width: 100%;
+    background-color: grey;
 }
