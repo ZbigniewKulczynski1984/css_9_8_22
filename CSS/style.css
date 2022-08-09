@@ -26,9 +26,30 @@ a{
 
 span {
     text-transform: uppercase;
+    display:block;
 }
 
 div {
     width: 100%;
     background-color: grey;
 }
+
+h2 {
+    font-size: 24px;
+}
+
+#content-header {
+    
+    font-size: 20px;
+    color: gold;
+}
+
+.deck {
+    text-transform: uppercase;
+    color:aqua;
+
+}
+
+
+
+
