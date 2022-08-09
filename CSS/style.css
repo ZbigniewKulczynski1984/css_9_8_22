@@ -1,4 +1,4 @@
-* {
+/* * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -19,7 +19,7 @@ body {
 	width: 100%;
 } */
 
-#header h1 {
+/* #header h1 {
 	font-size: 32px;
 }
 
@@ -35,9 +35,9 @@ p {
     font-weight: bold;
 	color: blue;
     line-height: 12px;
-}
+} */
 
-a {
+/* a {
 	text-decoration: underline;
 	color: lime;
     transition: color 0.3s;
@@ -56,9 +56,9 @@ div {
 	color: blueviolet;
 	width: 100%;
 	background-color: grey;
-}
+} */
 
-h2 {
+/* h2 {
 	font-size: 24px;
 }
 
@@ -80,9 +80,9 @@ li{
     text-decoration: line-through;
     color: silver;
     font-size: 16px;
-}
+} */
 
-li:first-child{
+/* li:first-child{
     color:red;
 }
 
@@ -143,5 +143,41 @@ li:last-child{
     font-size: 14px;
     text-align: center;
     border-radius: 4px;
-    background-color: rgb(207, 49, 49);
+    background: rgb(207, 49, 49);
+    background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+} */ 
+
+
+
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.box {
+    height: 100px;
+    min-width: 100px;
+}
+
+.one {
+    background: red;
+}
+.two {
+    background: greenyellow;
+}
+.three {
+    background: royalblue;
 }
