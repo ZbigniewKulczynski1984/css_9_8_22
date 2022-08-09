@@ -165,18 +165,23 @@ body {
 
 .flex-container{
     display: flex;
+    background: grey;
+    flex-wrap: wrap;
 }
 
 .box {
     height: 100px;
     min-width: 100px;
+    
 }
 
 .one {
     background: red;
+    /* flex-grow: 1; */
 }
 .two {
     background: greenyellow;
+    /* flex-shrink: 1; */
 }
 .three {
     background: royalblue;
