@@ -1,3 +1,17 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 80px;
+	font-size: 36px;
+	height: 100vh;
+	font-family: "Montserrat", sans-serif;
+	background-color: #fff;
+}
+
 /* #header {
 	position: absolute;
 	top: 0;
@@ -16,40 +30,47 @@
 
 p {
 	font-size: 12px;
+    font-family: serif;
+    font-weight: bold;
 	color: blue;
 }
 
-a{
-    text-decoration: underline;
-    color: lime;
+a {
+	text-decoration: underline;
+	color: lime;
 }
 
 span {
-    text-transform: uppercase;
-    display:block;
+	text-transform: uppercase;
+	display: block;
 }
 
 div {
-    width: 100%;
-    background-color: grey;
+	color: blueviolet;
+	width: 100%;
+	background-color: grey;
 }
 
 h2 {
-    font-size: 24px;
+	font-size: 24px;
 }
 
 #content-header {
-    
-    font-size: 20px;
-    color: gold;
+	font-size: 20px;
+	color: gold;
 }
 
 .deck {
-    text-transform: uppercase;
-    color:aqua;
-
+	text-transform: uppercase;
+	color: aqua;
 }
 
+.test {
+	color: green;
+}
 
-
-
+li{
+    text-decoration: line-through;
+    color: silver;
+    font-size: 16px;
+}
