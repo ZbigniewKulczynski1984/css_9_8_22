@@ -30,6 +30,8 @@ body {
 
 p {
 	font-size: 12px;
+    font-family: serif;
+    font-weight: bold;
 	color: blue;
 }
 
@@ -65,4 +67,10 @@ h2 {
 
 .test {
 	color: green;
+}
+
+li{
+    text-decoration: line-through;
+    color: silver;
+    font-size: 16px;
 }
