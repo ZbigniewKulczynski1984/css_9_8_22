@@ -157,12 +157,13 @@ body {
 }
 
 .wrapper {
-	width: 100%;
+    width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
 }
 
 nav {
+    margin: 5px;
 	background-color: #333;
 }
 
@@ -177,24 +178,33 @@ nav a {
 	padding: 10px;
 	color: #fff;
 	display: block;
+    transition: color 0.3s;
 }
 
 nav a:hover {
     background-color: #555;
+    color: royalblue;
 }
 
 @media screen and (min-width: 760px){
 
         nav ul {
             display: flex;
-            justify-content: flex-end;
+            
         }
 
         nav li{
-            /* flex:1 1 0; */
+            flex:1 1 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+        } 
+
+        .social {
+            font-size: 24px;
         }
 }
-
 /* .wrapper{
     width: 100%;
     min-width: 960px;
