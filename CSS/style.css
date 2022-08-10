@@ -153,10 +153,30 @@ li:last-child{
 
 body {
 	background-color: #eee;
+    color: #333;
     font-family: sans-serif;
+    text-align: center;
 }
 
-.wrapper {
+#content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#content div{
+    background: #3bbced;
+    padding: 30px;
+}
+
+#content div:nth-child(even){
+    background: #777;
+}
+
+
+
+
+
+/* .wrapper {
     width: 100%;
     max-width: 960px;
 }
@@ -173,6 +193,11 @@ body {
     text-align: center;
     background-color: #ccc;
 }
+
+.one{order:4;}
+.two{order:0;}
+.three{order:0;}
+.four{order:0;} */
 
 
 /* .wrapper {
