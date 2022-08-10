@@ -4,4 +4,4 @@ Na potrzeby szkolenia
 
 ##build with
 -HTML
--CSS
+-CSS(used Flexbox, Grid)
